@@ -14,18 +14,9 @@ docker exec -i pg psql -U postgres -d school < student_grades.sql
 
 ## 2. Set up .env
 
-Create a file named `.env` in the project folder with one line:
+Create a file named `.env` in the project folder with one line
 
 ```
-DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@localhost:5432/school
-```
-- `postgres` is the username
-- `YOUR_PASSWORD` is your database password
-- `localhost` means the database runs on your own computer
-- `5432` is the port PostgreSQL listens on
-- `school` is the name of the database
-
-(Use an example value here, not your real password.)
 
 ## 3. Install and run
 
