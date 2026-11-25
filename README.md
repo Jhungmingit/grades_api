@@ -42,8 +42,6 @@ To run the tests: `pytest -v`
 
 ## 4. Student vs. course delete
 
-Deleting a student also deletes their grades 
-Deleting a course is blocked if it still has grades
-
+For a real school, I would block the course delete if any grades are left in it. If someone deleted a course by accident and every student's grades in it were deleted too, it would take much more time and effort to restore than deleting a single student and their grades.
 
 
